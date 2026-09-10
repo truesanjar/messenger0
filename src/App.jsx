@@ -20,6 +20,7 @@ import Register from "./registration/Register"
 import Dashboard from "./dashboard/Dashboard"
 import NotFound from "./NotFound"
 import { API_URL } from "./config"
+import { Analytics } from '@vercel/analytics/react'
 
 import './App.css'
 
@@ -125,6 +126,8 @@ function App() {
         <Route path="*" element={<NotFound />} />
 
       </Routes>
+
+      <Analytics />
 
     </BrowserRouter>
   )

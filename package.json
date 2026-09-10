@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@livekit/components-react": "^1.4.0",
+    "@vercel/analytics": "^2.0.1",
     "crypto-js": "^4.2.0",
     "firebase": "^12.13.0",
     "livekit-client": "^1.15.0",
